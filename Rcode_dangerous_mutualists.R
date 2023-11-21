@@ -41,7 +41,7 @@ library(corrplot)
 options(digits.secs = 3)
 options(scipen = 999)
 
-nonbees <- read_excel("~/Desktop/Am Nat Submission/guided_trips_with_gps.xlsx", 
+nonbees <- read_excel("~/guided_trips_with_gps.xlsx", 
                             col_types = c("numeric", "text", "text", "text", 
                                           "text", "text", "text", "text", "text", 
                                           "date", "date", "date","numeric", 
