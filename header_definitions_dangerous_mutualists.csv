@@ -1,0 +1,45 @@
+Filename,Heading,Definition
+all_guides_2018,observers,Initals of which author(s) recorded the guiding interaction
+all_guides_2019,date,Date of the year guiding interaction occurred on
+all_guides_2020,found_bees,Whether or not bees were found at the end of the guiding interaction
+all_guides_2021,beesID,Unique identifier for the bees' nest (if found)
+guided_trips_with_gps,date,Date of the year guiding interaction occurred on
+guided_trips_with_gps,group,"Guided to bees (B), guided to animals other than bees (A)"
+guided_trips_with_gps,guide_age,"Age class of guiding honeyguide: 4 = Adult, 3 = Adult with a few yearling feathers remaining, 1 = Juvenile in its first year, and unk = unknown"
+guided_trips_with_gps,bee,species of bee guided to (where known): apis = Apis mellifera 
+guided_trips_with_gps,harvested,Whether or not the bees' nest was harvested and a reward left for honeyguides
+guided_trips_with_gps,treeID,Unique identifier for the bees' nest or animal guided to
+guided_trips_with_gps,follow_GPStrackID,Identifier for gpx. track from the relevant guiding interaction
+guided_trips_with_gps,audio_trackID,Identifier for audio wav. track from the relevant guiding interaction
+guided_trips_with_gps,audio_start_indication,Start time (UTC+2) for honeyguide 'indication' calls (if relevant)
+guided_trips_with_gps,audio_finish_woo,"End time for guiding interaction when honey-hunter spots bees or animal and calls ""woo"" in the recording"
+guided_trips_with_gps,indication_to_woo,Time from start of indication calls to when human calls woo
+guided_trips_with_gps,beetree_lat,Latitude in decimal degrees of bee tree
+guided_trips_with_gps,beetree_lon,Longitude in decimal degrees of bee tree
+guided_trips_with_gps,guiding_starttime,Time at start of guiding interaction
+guided_trips_with_gps,finalphasecalls_time,Time when indications calls begin (if relevant)
+guided_trips_with_gps,foundtree_time,Time that tree is found 
+guided_trips_with_gps,dist_fp_start_to_bees,Distance in a straight line or 'as-the-crow-flies' meters between when then final phase or 'indication' calls started and where the bees were located (if found) 
+guided_trips_with_gps,followdist_crowfly,Distance in straight line or 'as-the-crow-flies' meters between start and end points of a guiding interaction
+guided_trips_with_gps,follow_trackdist,Distance in meters of the track recorded while following a honeyguide
+guided_trips_with_gps,GPSguiding_starttime,Timestamp (UTC+2) of the first point of the gpx. track
+guided_trips_with_gps,GPSguiding_endtime,Timestamp (UTC+2) of the last point of the gpx. track
+guided_trips_with_gps,avg_speed_kph,Average moving speed of the human carrying the GPS when following the honeyguide
+prior_harvests_data,outcome,Whether or not we were guided to bees or non-bees
+prior_harvests_data,siteID,Unique identifier for the bees' nest or animal guided to
+prior_harvests_data,all_trees_before,"Count of trees found with a honeyguides help, within the prior 7 days within 1500m"
+prior_harvests_data,preceding_harvests,"Count of trees found with a honeyguides help, within the prior 7 days within 1500m, which was harvested"
+prior_harvests_data,preceding_non-harvests,"Count of trees found with a honeyguides help, within the prior 7 days within 1500m, which was not harvested"
+prior_harvests_data,proportionNonHarvest,Proportion of prior interactions which were not harvested
+prior_harvests_data,prior_bees,Identifiers for prior bee trees found
+prior_harvests_data,date,Date of the year event ocurred on
+prior_harvests_data,lat,Latitude in decimal degrees of bee tree
+prior_harvests_data,lon,Longitude in decimal degrees of bee tree
+hg_selections,sound.files,Name of the wav. sound file for analysis 
+hg_selections,duration,Duration of bounding box for syllable within a soundfile
+hg_selections,selec,Number of bounding box within a sound file
+hg_selections,start,Timestamp in fractions of a second since start of the sound file for start of selection for anaylsis 
+hg_selections,end,Timestamp in fractions of a second since start of the sound file for end of selection for anaylsis 
+hg_selections,nonbees,Grouping of sounds by destination (bees or nonbees)
+hg_selections,chatter,"Sound type = chatter? 1 = yes, 0 = no"
+hg_selections,both,Combined information of where sound type and destination
