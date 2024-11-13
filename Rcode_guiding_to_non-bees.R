@@ -1,7 +1,7 @@
 # 
 
-# Dangerous mutualists: on the guiding of humans by greater honeyguides to animals other than bees
-# R code for running all analyses included in the manuscript submitted to The American Naturalist
+# To bees or not to bees: greater honeyguides occasionally guide humans to animals other than bees
+# R code for running all analyses included in the manuscript submitted to Ecology and Evolution
 
 # Data are stored in stored in four files: 
 # (1) guided_trips_with_gps.xlsx
@@ -222,7 +222,7 @@ perm_diffs <- replicate(n_permutations, perm_test(all_proportions, group_indicat
 p_value <- mean(abs(perm_diffs) >= abs(obs_diff))
 
 
-# ---- Statistics for section: 'Honeyguide behavior when guiding to animals is similar to when guiding to bees' ----
+# ---- Statistics for section: 'Honeyguide spatial behavior when guiding to non-bee animals is similar to when guiding to bees' ----
 
 # Calculation of sinuosity
 nonbees <- nonbees[complete.cases(nonbees$treeID), ] 
@@ -263,7 +263,7 @@ std.error(gdist$follow_trackdist,na.rm = TRUE)
 range(gdist$follow_trackdist,na.rm = TRUE)
 
 
-# ---- Stats for Result section "Non-rewarding behavior by honey-hunters is not more likely to precede being guided to non-bee animals"
+# ---- Statistics for Results section "Guiding to non-bee animals is no more likely after non-harvests by humans"
 
 prior_h <- prop
 
@@ -293,7 +293,7 @@ spectro(w2, wl = 300, grid = FALSE, contlevels=seq(1,20), scale = FALSE, ovlp = 
 hg.ad <- read.csv("~/hg_selections.csv")
 hg.ad <- selection_table(X = hg.ad)
 
-# uncomment the following to make jpegs with which to inspect spectrograms to see if selections are correctly applied
+# uncomment the following line to make jpegs with which to inspect spectrograms to see if selections are correctly applied
 # full_spectrograms(hg.ad, wl = 300, flim = c(1, 10), ovlp = 10, sxrow = 3, rows = 3, it = "jpeg")
 
 # measure all freguency parameters for all files
