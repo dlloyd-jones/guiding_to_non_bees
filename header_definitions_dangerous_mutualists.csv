@@ -1,8 +1,8 @@
 Filename,Heading,Definition
 all_guides_2018,observers,Initals of which author(s) recorded the guiding interaction
-all_guides_2019,date,Date of the year guiding interaction occurred on
-all_guides_2020,found_bees,Whether or not bees were found at the end of the guiding interaction
-all_guides_2021,beesID,Unique identifier for the bees' nest (if found)
+all_guides_2018,date,Date of the year guiding interaction occurred on
+all_guides_2018,found_bees,Whether or not bees were found at the end of the guiding interaction
+all_guides_2018,beesID,Unique identifier for the bees' nest (if found)
 guided_trips_with_gps,date,Date of the year guiding interaction occurred on
 guided_trips_with_gps,group,"Guided to bees (B), guided to animals other than bees (A)"
 guided_trips_with_gps,guide_age,"Age class of guiding honeyguide: 4 = Adult, 3 = Adult with a few yearling feathers remaining, 1 = Juvenile in its first year, and unk = unknown"
