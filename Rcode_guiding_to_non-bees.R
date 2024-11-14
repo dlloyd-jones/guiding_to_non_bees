@@ -1,6 +1,6 @@
 # 
 
-# To bees or not to bees: greater honeyguides occasionally guide humans to animals other than bees
+# To bees or not to bees: greater honeyguides sometimes guide humans to animals other than bees, but likely not as punishment
 # R code for running all analyses included in the manuscript submitted to Ecology and Evolution
 
 # Data are stored in stored in four files: 
